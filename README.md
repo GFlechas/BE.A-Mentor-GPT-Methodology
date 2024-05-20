@@ -1,112 +1,90 @@
-```markdown
-# BE.A-Mentor-GPT-Methodology
-A repository guide to creating a custom building energy analysis using OpenAIs custom GPTs. The repository includes datasets we've created (based on other opensource data) to feed our example mentor and others are welcome to use these as knowledge inputs for their own GPT.
-
-Sure! Here's a comprehensive and interactive GitHub README for the "BE.AMentor" project. The color scheme used will be inspired by the colors from your project logo.
-
 # BE.AMentor
 
-![BE.AMentor Logo](path/to/your/logo.jpg)
+![BE.AMentor Logo]("/beamentor_logo.png")
 
-## Overview
-
-**BE.AMentor** (Building Energy Analysis Mentor) is an open-source project that provides a custom GPT to assist building energy modeling and HVAC practitioners with their questions regarding ASHRAE standards, guidelines, and building energy modeling tools such as OpenStudio, EnergyPlus, and DesignBuilder. The project also integrates quantitative data from open-source datasets and tools, like DOE's prototype buildings, to enrich the responses provided by the custom GPT.
+Welcome to **BE.AMentor**, an open-source repository dedicated to developing a custom GPT for building energy analysis. This project aims to aid building energy modeling and HVAC practitioners by providing insightful answers to questions about ASHRAE standards, guidelines, and various building energy modeling tools such as OpenStudio, EnergyPlus, and DesignBuilder.
 
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Datasets and Tools](#datasets-and-tools)
 - [Contributing](#contributing)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Introduction
+
+**BE.AMentor** leverages the power of OpenAI's custom GPT to assist practitioners in the building energy modeling field. By incorporating quantitative data from open-source datasets, including DOE's prototype buildings, our custom GPT provides accurate and contextually relevant responses.
 
 ## Features
 
-- **ASHRAE Standards Guidance:** Provides detailed explanations and guidelines based on ASHRAE standards.
-- **Building Energy Modeling Support:** Answers questions related to tools such as OpenStudio, EnergyPlus, and DesignBuilder.
-- **Quantitative Data Integration:** Utilizes processed data from open-source datasets to provide accurate and data-driven responses.
-- **Customizable:** Allows for further customization to meet specific user needs.
+- **Expert Guidance:** Get reliable answers to questions about ASHRAE standards and guidelines.
+- **Modeling Support:** Assistance with tools like OpenStudio, EnergyPlus, and DesignBuilder.
+- **Data-Driven Insights:** Incorporates data from DOE's prototype buildings and other open-source datasets.
+- **Interactive Responses:** Engage with a dynamic and responsive custom GPT designed for energy analysis.
 
 ## Installation
 
-To install BE.AMentor, follow these steps:
+To get started with **BE.AMentor**, follow these steps:
 
 1. Clone the repository:
-    ```sh
+    ```bash
     git clone https://github.com/yourusername/BE.AMentor.git
+    ```
+2. Navigate to the project directory:
+    ```bash
     cd BE.AMentor
     ```
-
-2. Install the required dependencies:
-    ```sh
+3. Install the required dependencies:
+    ```bash
     pip install -r requirements.txt
-    ```
-
-3. Set up your OpenAI API key:
-    ```sh
-    export OPENAI_API_KEY='your-api-key'
     ```
 
 ## Usage
 
-To start using BE.AMentor, run the following command:
+To use **BE.AMentor**, simply run the main script and start interacting with the custom GPT:
 
-```sh
+```bash
 python main.py
 ```
 
-You can interact with the mentor through the command line or integrate it into your own applications.
+You can ask questions about building energy modeling, ASHRAE standards, and more. Here are a few examples:
 
-### Example Queries
-
-- **ASHRAE Standard 90.1 Compliance:**
-    ```sh
-    What are the key requirements of ASHRAE Standard 90.1 for commercial buildings?
-    ```
-
-- **EnergyPlus Simulation Tips:**
-    ```sh
-    How can I optimize the HVAC system simulation in EnergyPlus for a medium-sized office building?
-    ```
-
-## Datasets and Tools
-
-BE.AMentor leverages the following datasets and tools:
-
-- **DOE's Prototype Buildings:** Pre-processed data from the Department of Energy's prototype buildings.
-- **OpenStudio:** An open-source software for building energy modeling.
-- **EnergyPlus:** An energy simulation program for modeling building heating, cooling, lighting, ventilating, and other energy flows.
-- **DesignBuilder:** A comprehensive user interface for EnergyPlus.
+- *"What are the key ASHRAE guidelines for HVAC systems?"*
+- *"How do I model a commercial building in EnergyPlus?"*
+- *"What are the energy savings potential for using DOE's prototype buildings data?"*
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to BE.AMentor, please follow these steps:
+We welcome contributions to **BE.AMentor**! To contribute, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a Pull Request.
-
-For more details, refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-feature
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m "Add your message"
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature/your-feature
+    ```
+5. Create a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+## Acknowledgements
 
-**BE.AMentor** is designed to support building energy modelers and HVAC practitioners by providing accurate and relevant information quickly. By integrating standards, guidelines, and quantitative data, BE.AMentor aims to streamline the workflow and enhance the decision-making process.
-
-Feel free to explore, use, and contribute to the project!
-
-Ensure that you replace `path/to/your/logo.jpg` with the actual path to the logo in your repository. If you need any further customization or additional sections, feel free to ask!
+IBPSA USA and the SimBuild Conference Organizers have our gratitude for their support of novice and seasoned practioners alike in the Building Energy Modeling community. And thanks to our fellow participants of the HackSimBuild 2024 competition for their valuable input and feedback on this project.
 
 ---
 
 **BE.AMentor** - Your Guide to Building Energy Analysis
 
 ---
-
-```
