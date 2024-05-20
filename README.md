@@ -1,13 +1,19 @@
-# BE.AMentor
+# BE.AMentor - GPT Methodology Toolkit
 
-![BE.AMentor Logo]("/beamentor_logo.png")
+<div align="center">
+    <img src="beamentor_logo.png" alt="BE.AMentor Logo" />
+</div>
 
-Welcome to **BE.AMentor**, an open-source repository dedicated to developing a custom GPT for building energy analysis. This project aims to aid building energy modeling and HVAC practitioners by providing insightful answers to questions about ASHRAE standards, guidelines, and various building energy modeling tools such as OpenStudio, EnergyPlus, and DesignBuilder.
+Welcome to **BE.AMentor - GPT Methodology Toolkit**, an open-source repository outling the process you can use to develop a Building Energy Modeling/Analysis focused custom GPT to answer questions about standards, code compliance, and modeling practices. Developing a custom  
+
+This repo includes the configuration information you can use to initialize a custom Building Energy Analysis mentor, however to do so requires a ChatGPT Plus account. However,project aims to aid building energy modeling and HVAC practitioners by providing insightful answers to questions about ASHRAE standards, guidelines, and various building energy modeling tools such as OpenStudio, EnergyPlus, and DesignBuilder.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Demo](#demo)
+- [Create your Own Mentor](<#create-your-own-mentor>)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -16,7 +22,7 @@ Welcome to **BE.AMentor**, an open-source repository dedicated to developing a c
 
 ## Introduction
 
-**BE.AMentor** leverages the power of OpenAI's custom GPT to assist practitioners in the building energy modeling field. By incorporating quantitative data from open-source datasets, including DOE's prototype buildings, our custom GPT provides accurate and contextually relevant responses.
+**BE.AMentor** leverages the power of OpenAI custom GPTs to assist practitioners in the building energy modeling field. By incorporating quantitative data from open-source datasets, including DOE's prototype buildings, our custom GPT provides accurate and contextually relevant responses.
 
 ## Features
 
@@ -24,6 +30,26 @@ Welcome to **BE.AMentor**, an open-source repository dedicated to developing a c
 - **Modeling Support:** Assistance with tools like OpenStudio, EnergyPlus, and DesignBuilder.
 - **Data-Driven Insights:** Incorporates data from DOE's prototype buildings and other open-source datasets.
 - **Interactive Responses:** Engage with a dynamic and responsive custom GPT designed for energy analysis.
+
+## Demo
+
+You can use our demo **BE.AMentor Custom GPT** at _______. Using the demo Custom GPT requires you to login with an OpenAI account (free or paid), however, you do **not** need a ChatGPT Plus subscription to use an already made custom GPT. You just need an email address to register for a free ChatGPT account and after doing so you can interact with our **BE.AMentor Custom GPT** demo.
+
+## Create your Own Mentor
+
+There are two ways to develop your own Building Energy Analysis GPT mentor: through [ChatGPT's Custom GPT Builder](<https://chatgpt.com/gpts/editor>) in the web interface, or by interfacing with ChatGPT through OpenAI's API.
+
+### Through the Web Interface
+
+1. Sign in to your [OpenAI ChatGPT Account](<https://chat.openai.com/auth/login?sso>)
+
+1. Navigate to the [New GPTs editor](<https://chatgpt.com/gpts/editor>)
+
+1. Click *Explore GPTs*
+
+### Through the API
+
+You can create your own custom Building Energy Analysis GPT mentor in two ways. You can use the [beamentor_GPT_foundation.py](beamentor_GPT_foundation.py) script to interface with ChatGPT through OpenAI's API interface.
 
 ## Installation
 
