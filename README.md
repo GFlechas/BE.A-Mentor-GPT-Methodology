@@ -1,7 +1,7 @@
 # BE.AMentor - GPT Methodology Toolkit
 
 <div align="center">
-    <img src="beamentor_logo.png" alt="BE.AMentor Logo" style="max-width:50%" />
+    <img src="beamentor_logo.png" alt="BE.AMentor Logo" style="max-width:50%;" />
 </div>
 
 Welcome to **BE.AMentor - GPT Methodology Toolkit**, an open-source repository outling the process you can use to develop a Building Energy Modeling/Analysis focused custom GPT to answer questions about standards, code compliance, and modeling practices. Developing a custom  
@@ -59,12 +59,12 @@ There are two ways to develop your own Building Energy Analysis GPT mentor: thro
 
 1. Navigate to the [New GPTs editor](<https://chatgpt.com/gpts/editor>) directly or click *Explore GPTs* on the left hand menu
     <div align="center">
-        <img src="images/web_int1.png" alt="BE.AMentor Logo" style="max-width:75%"/>
+        <img src="images/web_int1.png" alt="BE.AMentor Logo" style="max-width:75%;"/>
     </div>
 
 1. Click *Create* in the top right corner
     <div align="center">
-        <img src="images/web_int2.png" alt="BE.AMentor Logo" style="max-width:75%" />
+        <img src="images/web_int2.png" alt="BE.AMentor Logo" style="max-width:75%;" />
     </div>
 
 1. While on the create tab, enter the following prompts 1 at a time:  
@@ -99,7 +99,7 @@ There are two ways to develop your own Building Energy Analysis GPT mentor: thro
 
 1. Click the *Configure* tab on the top of the editor
     <div align="center">
-        <img src="images/web_int3.png" alt="BE.AMentor Logo" style="max-width:75%" />
+        <img src="images/web_int3.png" alt="BE.AMentor Logo" style="max-width:75%;" />
     </div>
 
 1. Fill out the configuration as follows:  
