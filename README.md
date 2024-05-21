@@ -8,12 +8,15 @@ Welcome to **BE.AMentor - GPT Methodology Toolkit**, an open-source repository o
 
 This repo includes the configuration information you can use to initialize a custom Building Energy Analysis mentor, however to do so requires a ChatGPT Plus account. However,project aims to aid building energy modeling and HVAC practitioners by providing insightful answers to questions about ASHRAE standards, guidelines, and various building energy modeling tools such as OpenStudio, EnergyPlus, and DesignBuilder.
 
+**This project was developed for the 2024 HackSimBuild competition by [Gabriel Flechas](), Jongki Lee, and Hunter Swope.**
+
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Demo](#demo)
 - [Create your Own Mentor](<#create-your-own-mentor>)
+- [Knowledge Resources](<#knowledge-resources>)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -33,7 +36,20 @@ This repo includes the configuration information you can use to initialize a cus
 
 ## Demo
 
-You can use our demo **BE.AMentor Custom GPT** at _______. Using the demo Custom GPT requires you to login with an OpenAI account (free or paid), however, you do **not** need a ChatGPT Plus subscription to use an already made custom GPT. You just need an email address to register for a free ChatGPT account and after doing so you can interact with our **BE.AMentor Custom GPT** demo.
+You can use our demo [**BE.AMentor Custom GPT**](<https://chatgpt.com/g/g-iqXDi6GMk-be-a-mentor>) at [https://chatgpt.com/g/g-iqXDi6GMk-be-a-mentor](<https://chatgpt.com/g/g-iqXDi6GMk-be-a-mentor>). Using the demo Custom GPT requires you to login with an OpenAI account (free or paid), however, you do **not** need a ChatGPT Plus subscription to use an already made custom GPT. You just need an email address to register for a free ChatGPT account and after doing so you can interact with our **BE.AMentor Custom GPT** demo.
+#### Not sure what to ask? Try one of these:
+* What knowledge do you have?
+* What problems can you help me with?
+* What do the ASHRAE standards say about Building Energy Modeling?
+* Give me an example of a box model.
+    * Turn that example into an EnergyPlus .idf file.
+        * (We haven't tested the idfs this generates yet but it will generate an IDF for you and it looks like it should run.)
+    * Modify the IDF to a box with ____ sqft and an aspect ratio of ____.
+* What are best practices for modeling demand response ventillation?
+* Summarize what topics are in ASHRAE fundamentals.
+* What is ASHRAE Standard 209?
+* How to comply with ASHRAE 90.1
+
 
 ## Create your Own Mentor
 
@@ -116,42 +132,23 @@ There are two ways to develop your own Building Energy Analysis GPT mentor: thro
     How do I predict the EUI of a new construction project?
     ```
     **Knowledge**
+    This is where you upload documents and datasets you want GPT to access and prioritize for it's answers. This specialized knowledge helps prevent 'hallucination' answers which generative AI models have a tendancy to give.  
+
+    **Please see the [Knowledge Resources](<#knowledge-resources>) section for some free and opensource resources you can share with your custom GPT.**
     
 
 ### Through the API
 
-You can create your own custom Building Energy Analysis GPT mentor in two ways. You can use the [beamentor_GPT_foundation.py](beamentor_GPT_foundation.py) script to interface with ChatGPT through OpenAI's API interface.
+You can create your own custom Building Energy Analysis GPT mentor in two ways. You can use the [beamentor_GPT_foundation.py](beamentor_GPT_foundation.py) script to interface with ChatGPT through OpenAI's API interface. We recommend reading OpenAI's [Developer Quick Start guide](<https://platform.openai.com/docs/quickstart>) to learn more.
 
-## Installation
+## Knowledge Resources
 
-To get started with **BE.AMentor**, follow these steps:
+Here's a list of the publically available resources we shared with our model as well as the data sources we currated ourselves for our BE.AMentor example.
+* Our combined Energy Summary and Statistics of the DOE Prototype Buildings
+    * [prototype_building_stats.csv](prototype_building_stats.csv)
+* All questions and answers from the Unmethours Forum (current as of 5/21/2024)
+    * [unmethours_questions_answers_5-21-24.json](unmethours_questions_answers_5-21-24.json)
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/BE.AMentor.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd BE.AMentor
-    ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-To use **BE.AMentor**, simply run the main script and start interacting with the custom GPT:
-
-```bash
-python main.py
-```
-
-You can ask questions about building energy modeling, ASHRAE standards, and more. Here are a few examples:
-
-- *"What are the key ASHRAE guidelines for HVAC systems?"*
-- *"How do I model a commercial building in EnergyPlus?"*
-- *"What are the energy savings potential for using DOE's prototype buildings data?"*
 
 ## Contributing
 
@@ -172,13 +169,18 @@ We welcome contributions to **BE.AMentor**! To contribute, please follow these s
     ```
 5. Create a pull request.
 
+Alternatively, feel free to email one of use with questions, comments, or suggestions.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
-IBPSA USA and the SimBuild Conference Organizers have our gratitude for their support of novice and seasoned practioners alike in the Building Energy Modeling community. And thanks to our fellow participants of the HackSimBuild 2024 competition for their valuable input and feedback on this project.
+IBPSA USA and the SimBuild Conference Organizers have our gratitude for their support of novice and seasoned practioners alike in the Building Energy Modeling community. Also a big thank you BigLadderSoftware for granting us access to pull questions and answers from Unmethours and for sharing your workspace for the Hackathon. 
+
+And thanks to our fellow participants of the HackSimBuild 2024 competition for their valuable input and feedback on this project!
+
 
 ---
 
