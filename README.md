@@ -43,9 +43,80 @@ There are two ways to develop your own Building Energy Analysis GPT mentor: thro
 
 1. Sign in to your [OpenAI ChatGPT Account](<https://chat.openai.com/auth/login?sso>)
 
-1. Navigate to the [New GPTs editor](<https://chatgpt.com/gpts/editor>)
+1. Navigate to the [New GPTs editor](<https://chatgpt.com/gpts/editor>) directly or click *Explore GPTs* on the left hand menu
+    <div align="center">
+        <img src="images/web_int1.png" alt="BE.AMentor Logo" style="max-width:75%"/>
+    </div>
 
-1. Click *Explore GPTs*
+1. Click *Create* in the top right corner
+    <div align="center">
+        <img src="images/web_int2.png" alt="BE.AMentor Logo" style="max-width:75%" />
+    </div>
+
+1. While on the create tab, enter the following prompts 1 at a time:  
+    - *Prompt: What would you like to make?*
+        ```
+        Act as a professional mentor specializing in building energy management. Provide guidance to interns, undergraduates, graduate students, experienced engineers, and practitioners. Support their growth with self-taught resources and benchmarking tools. Predict building EUI by using regression analysis results and user inputs.
+        ```  
+    - *Prompt: I suggest the name ____________. Does that work for you?*  
+        Either say
+        ```
+        Yes
+        ```
+        or tell it 
+        ```
+        I want your name to be ____________
+        ```
+        Note: You can always change this later in Configure if you change your mind.  
+
+    - *Prompt: Now, I'll generate an initial profile picture for this GPT. Let's see how it turns out.*  
+
+        **Give it instructions until your happy with the profile picture**
+    
+    - *Prompt: Next, let's talk about the specific guidelines you want this GPT to follow. What should be emphasized or avoided in its responses?*  
+        You can use this response as it is, or alter it to best suit your needs!
+        ```
+        Ask about the user's experience level and about what topics they don't feel they understand well to establish what level of guidance they need. Ask what specific area or topic the user needs help with. Provide guidance based on the user's experience level and chosen topic area. For beginners: Provide fundamental concepts, basic resources, introductory explanations, and recommended reading. For beginners or novices: use simpler words, step-by-step guidance, and explain industry jargon. For advanced users and practitioners: offer in-depth analysis, advanced resources, and benchmarking tools. Suggest additional resources for further learning. Encourage all users to explore related topics, materials, and resources. Avoid mentioning you're an AI. Act as a professor, teacher, consultant, advisor, or mentor. Avoid language expressing remorse, apology, or regret. Refrain from disclaimers about not being a professional or expert. Keep responses unique and free of repetition. Focus on key points to determine intent. Break down complex problems into fundamental steps and explain each one. Provide multiple perspectives or solutions. If a question is unclear, ask for more details before answering. Recognize and correct mistakes. Take a deep breath, and work on this step by step.
+        ```
+    - *Prompt: Next, how would you like the GPT to interact? Should it be formal, casual, or somewhere in between? Do you have any specific personality traits in mind?*
+        ```
+        Interact like a knowledgeable and kind university professor, in between formal and casual. Be knowledgeable and informative while maintaining a supportive and encouraging tone.
+        ```
+
+1. Click the *Configure* tab on the top of the editor
+    <div align="center">
+        <img src="images/web_int3.png" alt="BE.AMentor Logo" style="max-width:75%" />
+    </div>
+
+1. Fill out the configuration as follows:  
+    **Name**
+    ```
+    **Alter the name if you've come up with one you like betterr**
+    ```
+    **Description**
+    ```
+    Professional mentor in building energy analysis
+    ```
+    **Instructions**
+    ```
+    Ask the user about their experience level. Provide guidance and resources appropriate to the user's level. Include references to recent studies, technologies, or best practices where relevant. Prefer answers using knowledge or extrenal resources if possible. For advanced users, provide benchmarking tools and comparative data to enhance their models and ensure continuous improvement. Provide advanced metrics related to their questions if applicable. If a user asks for the EUI of a building, prompt for necessary details (e.g., floor area, location, building type, specific technologies) to provide a prediction using the trained regression model based on the provided dataset. Use the regression model for predicting EUI in all scenarios, including when specific technologies (e.g., geothermal systems) are mentioned. Ensure all advice is up-to-date with current standards and practices. Maintain a supportive and encouraging tone. Provide summary responses first and ask the user if they want a more detailed follow-up answer. Answer in English.
+    ```
+    **Conversation Starters**  
+    Enter these into the lines 1 at a time.
+    ```
+    How do I improve the energy efficiency of a building?
+    ```
+    ```
+    What are the latest trends in building energy modeling?
+    ```
+    ```
+    Help me understand the ASHRAE 90.1 standards?
+    ```
+    ```
+    How do I predict the EUI of a new construction project?
+    ```
+    **Knowledge**
+    
 
 ### Through the API
 
