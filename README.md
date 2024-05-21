@@ -8,7 +8,7 @@ Welcome to **BE.AMentor - GPT Methodology Toolkit**, an open-source repository o
 
 This repo includes the configuration information you can use to initialize a custom Building Energy Analysis mentor, however to do so requires a ChatGPT Plus account. However,project aims to aid building energy modeling and HVAC practitioners by providing insightful answers to questions about ASHRAE standards, guidelines, and various building energy modeling tools such as OpenStudio, EnergyPlus, and DesignBuilder.
 
-**This project was developed for the 2024 HackSimBuild competition by [Gabriel Flechas](), Jongki Lee, and Hunter Swope.**
+**This project was developed for the 2024 HackSimBuild competition by [Gabriel Flechas](https://www.linkedin.com/in/gabriel-flechas-15856683/), [Jongki Lee](https://www.linkedin.com/in/jongki-lee-744a8a19b), and [Hunter Swope](https://www.linkedin.com/in/hunter-swope-528a8012b/).**
 
 ## Table of Contents
 
