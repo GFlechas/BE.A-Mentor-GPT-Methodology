@@ -1,7 +1,7 @@
 # BE.AMentor - GPT Methodology Toolkit
 
 <div align="center">
-    <img src="beamentor_logo.png" alt="BE.AMentor Logo" tyle="max-width:75%" />
+    <img src="beamentor_logo.png" alt="BE.AMentor Logo" tyle="max-width:50%" />
 </div>
 
 Welcome to **BE.AMentor - GPT Methodology Toolkit**, an open-source repository outling the process you can use to develop a Building Energy Modeling/Analysis focused custom GPT to answer questions about standards, code compliance, and modeling practices. Developing a custom  
