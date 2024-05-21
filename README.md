@@ -17,8 +17,6 @@ This repo includes the configuration information you can use to initialize a cus
 - [Demo](#demo)
 - [Create your Own Mentor](<#create-your-own-mentor>)
 - [Knowledge Resources](<#knowledge-resources>)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
