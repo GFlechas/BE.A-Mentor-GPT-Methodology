@@ -145,7 +145,7 @@ Here's a list of the publically available resources we shared with our model as 
 
 * Our combined Energy Summary and Statistics of the DOE Prototype Buildings
     * [prototype_building_stats.csv](data_sources/prototype_building_stats.csv)
-* All questions and answers from the Unmethours Forum (current as of 5/21/2024)
+* All questions and answers from the [Unmethours Forum](<https://unmethours.com/questions/>) (current as of 5/21/2024)
     * [unmethours_questions_answers_5-21-24.json](data_sources/unmethours_questions_answers_5-21-24.json)
         * Please note this file is too big for a custom GPT right now, we're including it here if someone would like to use it in a different tool
     * **Uses these smaller files for a custom GPT**
@@ -158,13 +158,11 @@ Here's a list of the publically available resources we shared with our model as 
         * [unmet_questions_answers_part_7.json](data_sources/unmet_questions_answers_part_7.json)
 
 
-
-
 **Note on using ASHRAE materials:** Please note the ASHRAE current statement on the use of their published materials with AI tools like chatGPT:  
 
-<p style="text-align: center; font-style:italic ;">Artificial intelligence (AI) policy: ASHRAE prohibits the entry of content from any ASHRAE publication or related ASHRAE intellectual property (IP) into any AI tool, including but not limited to ChatGPT. Additionally, creating derivative works of ASHRAE IP using AI is also prohibited without express written permission from ASHRAE.</p>
+<p style="text-align: center; font-style:italic; ;">Artificial intelligence (AI) policy: ASHRAE prohibits the entry of content from any ASHRAE publication or related ASHRAE intellectual property (IP) into any AI tool, including but not limited to ChatGPT. Additionally, creating derivative works of ASHRAE IP using AI is also prohibited without express written permission from ASHRAE.</p>
 
-<p style="text-align: right; font-style:italic ;"><a href=https://www.ashrae.org/technical-resources/ashrae-journal>ASHRAE Journal referenced on 5/21/2024</a></p>
+<p style="text-align: right; font-style:italic; ;"><a href=https://www.ashrae.org/technical-resources/ashrae-journal>ASHRAE Journal referenced on 5/21/2024</a></p>
 
 Therefore, we can not recommend you upload personal .pdf copies of ASHRAE standards or publications to a personalized, private custom GPT. 
 
@@ -192,6 +190,8 @@ Alternatively, feel free to email one of use with questions, comments, or sugges
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+This project includes materials from [Unmethours Forum](<https://unmethours.com/questions/>), which are licensed under the Creative Commons Attribution-ShareAlike 3.0 License. You can view the full license text at http://creativecommons.org/licenses/by-sa/3.0/legalcode.
 
 ## Acknowledgements
 
