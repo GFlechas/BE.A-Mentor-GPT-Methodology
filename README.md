@@ -160,9 +160,9 @@ Here's a list of the publically available resources we shared with our model as 
 
 **Note on using ASHRAE materials:** Please note the ASHRAE current statement on the use of their published materials with AI tools like chatGPT:  
 
-<p style="text-align: center; font-style:italic; ;">Artificial intelligence (AI) policy: ASHRAE prohibits the entry of content from any ASHRAE publication or related ASHRAE intellectual property (IP) into any AI tool, including but not limited to ChatGPT. Additionally, creating derivative works of ASHRAE IP using AI is also prohibited without express written permission from ASHRAE.</p>
+<p style="text-align: center; font-style: italic; ;">Artificial intelligence (AI) policy: ASHRAE prohibits the entry of content from any ASHRAE publication or related ASHRAE intellectual property (IP) into any AI tool, including but not limited to ChatGPT. Additionally, creating derivative works of ASHRAE IP using AI is also prohibited without express written permission from ASHRAE.</p>
 
-<p style="text-align: right; font-style:italic; ;"><a href=https://www.ashrae.org/technical-resources/ashrae-journal>ASHRAE Journal referenced on 5/21/2024</a></p>
+<p style="text-align: right; font-style: italic; ;"><a href=https://www.ashrae.org/technical-resources/ashrae-journal>ASHRAE Journal referenced on 5/21/2024</a></p>
 
 Therefore, we can not recommend you upload personal .pdf copies of ASHRAE standards or publications to a personalized, private custom GPT. 
 
