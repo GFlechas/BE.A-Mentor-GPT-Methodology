@@ -144,9 +144,21 @@ You can create your own custom Building Energy Analysis GPT mentor in two ways. 
 Here's a list of the publically available resources we shared with our model as well as the data sources we currated ourselves for our BE.AMentor example.
 
 * Our combined Energy Summary and Statistics of the DOE Prototype Buildings
-    * [prototype_building_stats.csv](prototype_building_stats.csv)
+    * [prototype_building_stats.csv](data_sources/prototype_building_stats.csv)
 * All questions and answers from the Unmethours Forum (current as of 5/21/2024)
-    * [unmethours_questions_answers_5-21-24.json](unmethours_questions_answers_5-21-24.json)
+    * [unmethours_questions_answers_5-21-24.json](data_sources/unmethours_questions_answers_5-21-24.json)
+        * Please note this file is too big for a custom GPT right now, we're including it here if someone would like to use it in a different tool
+    * **Uses these smaller files for a custom GPT**
+        * [unmet_questions_answers_part_1.json](data_sources/unmet_questions_answers_part_1.json)
+        * [unmet_questions_answers_part_2.json](data_sources/unmet_questions_answers_part_2.json)
+        * [unmet_questions_answers_part_3.json](data_sources/unmet_questions_answers_part_3.json)
+        * [unmet_questions_answers_part_4.json](data_sources/unmet_questions_answers_part_4.json)
+        * [unmet_questions_answers_part_5.json](data_sources/unmet_questions_answers_part_5.json)
+        * [unmet_questions_answers_part_6.json](data_sources/unmet_questions_answers_part_6.json)
+        * [unmet_questions_answers_part_7.json](data_sources/unmet_questions_answers_part_7.json)
+
+
+
 
 **Note on using ASHRAE materials:** Please note the ASHRAE current statement on the use of their published materials with AI tools like chatGPT:  
 
